@@ -1,5 +1,7 @@
 public class AnalogCamera implements Printable {
 
-  public String printDetails();
+  public String printDetails() {
+    return "Instamatic";
+  }
 
 }
