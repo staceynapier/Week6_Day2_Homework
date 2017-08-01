@@ -1,7 +1,14 @@
 public class AnalogCamera implements Printable {
 
-  public String printDetails() {
-    return "Instamatic";
+  private String make;
+  private String model;
+
+  public AnalogCamera(String make, String model){
+    this.make = make;
+    this.model = model;
   }
 
+  public String printDetails() {
+    return (this.make + "," + this.model);
+  }
 }
